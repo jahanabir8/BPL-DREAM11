@@ -2,7 +2,7 @@
   {
     "id": "PLY001",
     "PlayerName": "Virat Kohli",
-    "img": "https://example.com/images/virat-kohli.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -12,7 +12,7 @@
   {
     "id": "PLY002",
     "PlayerName": "Babar Azam",
-    "img": "https://example.com/images/babar-azam.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Pakistan",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
@@ -22,7 +22,7 @@
   {
     "id": "PLY003",
     "PlayerName": "Jasprit Bumrah",
-    "img": "https://example.com/images/jasprit-bumrah.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "India",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
@@ -32,7 +32,7 @@
   {
     "id": "PLY004",
     "PlayerName": "Ben Stokes",
-    "img": "https://example.com/images/ben-stokes.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "England",
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast-medium",
@@ -42,7 +42,7 @@
   {
     "id": "PLY005",
     "PlayerName": "Shakib Al Hasan",
-    "img": "https://example.com/images/shakib-al-hasan.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Bangladesh",
     "playerType": "All-rounder",
     "bowlingStyle": "Slow left-arm orthodox",
@@ -52,7 +52,7 @@
   {
     "id": "PLY006",
     "PlayerName": "Kagiso Rabada",
-    "img": "https://example.com/images/kagiso-rabada.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "South Africa",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
@@ -62,7 +62,7 @@
   {
     "id": "PLY007",
     "PlayerName": "Jos Buttler",
-    "img": "https://example.com/images/jos-buttler.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "England",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -72,7 +72,7 @@
   {
     "id": "PLY008",
     "PlayerName": "Rashid Khan",
-    "img": "https://example.com/images/rashid-khan.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Afghanistan",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm leg break",
@@ -82,7 +82,7 @@
   {
     "id": "PLY009",
     "PlayerName": "Glenn Maxwell",
-    "img": "https://example.com/images/glenn-maxwell.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Australia",
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm off break",
@@ -92,7 +92,7 @@
   {
     "id": "PLY010",
     "PlayerName": "Kane Williamson",
-    "img": "https://example.com/images/kane-williamson.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "New Zealand",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
@@ -102,7 +102,7 @@
   {
     "id": "PLY011",
     "PlayerName": "Travis Head",
-    "img": "https://example.com/images/travis-head.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Australia",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
@@ -112,7 +112,7 @@
   {
     "id": "PLY012",
     "PlayerName": "Mohammad Rizwan",
-    "img": "https://example.com/images/mohammad-rizwan.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Pakistan",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -122,7 +122,7 @@
   {
     "id": "PLY013",
     "PlayerName": "Pat Cummins",
-    "img": "https://example.com/images/pat-cummins.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
@@ -132,7 +132,7 @@
   {
     "id": "PLY014",
     "PlayerName": "Rohit Sharma",
-    "img": "https://example.com/images/rohit-sharma.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
@@ -142,7 +142,7 @@
   {
     "id": "PLY015",
     "PlayerName": "David Warner",
-    "img": "https://example.com/images/david-warner.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Australia",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm leg break",
@@ -152,7 +152,7 @@
   {
     "id": "PLY016",
     "PlayerName": "Shaheen Afridi",
-    "img": "https://example.com/images/shaheen-afridi.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Pakistan",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm fast",
@@ -162,7 +162,7 @@
   {
     "id": "PLY017",
     "PlayerName": "Liam Livingstone",
-    "img": "https://example.com/images/liam-livingstone.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "England",
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm leg break",
@@ -172,7 +172,7 @@
   {
     "id": "PLY018",
     "PlayerName": "Andre Russell",
-    "img": "https://example.com/images/andre-russell.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "West Indies",
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast",
@@ -182,7 +182,7 @@
   {
     "id": "PLY019",
     "PlayerName": "Quinton de Kock",
-    "img": "https://example.com/images/quinton-de-kock.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "South Africa",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -192,7 +192,7 @@
   {
     "id": "PLY020",
     "PlayerName": "Nicholas Pooran",
-    "img": "https://example.com/images/nicholas-pooran.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "West Indies",
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -202,7 +202,7 @@
   {
     "id": "PLY021",
     "PlayerName": "Ravindra Jadeja",
-    "img": "https://example.com/images/ravindra-jadeja.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "India",
     "playerType": "All-rounder",
     "bowlingStyle": "Slow left-arm orthodox",
@@ -212,7 +212,7 @@
   {
     "id": "PLY022",
     "PlayerName": "Mitchell Starc",
-    "img": "https://example.com/images/mitchell-starc.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Australia",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm fast",
@@ -222,7 +222,7 @@
   {
     "id": "PLY023",
     "PlayerName": "Suryakumar Yadav",
-    "img": "https://example.com/images/suryakumar-yadav.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "India",
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm medium",
@@ -232,7 +232,7 @@
   {
     "id": "PLY024",
     "PlayerName": "Mustafizur Rahman",
-    "img": "https://example.com/images/mustafizur-rahman.jpg",
+    "img": "https://www.gujarattitansipl.com/static-assets/images/players/9782.png?v=6.76",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm medium-fast",
