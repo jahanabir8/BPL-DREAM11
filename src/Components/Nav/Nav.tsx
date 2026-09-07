@@ -5,7 +5,7 @@ import Logo from '../../assets/logo.png'
 
 const Nav = () => {
   return (
-    <div className=" shadow-sm">
+    <div className=" shadow-sm mb-6">
       <div className="navbar max-w-330 mx-auto bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
