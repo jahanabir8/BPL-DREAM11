@@ -1,0 +1,242 @@
+[
+  {
+    "id": "PLY001",
+    "PlayerName": "Virat Kohli",
+    "img": "https://example.com/images/virat-kohli.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-handed",
+    "price": 12000000
+  },
+  {
+    "id": "PLY002",
+    "PlayerName": "Babar Azam",
+    "img": "https://example.com/images/babar-azam.jpg",
+    "origin": "Pakistan",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off break",
+    "battingStyle": "Right-handed",
+    "price": 11500000
+  },
+  {
+    "id": "PLY003",
+    "PlayerName": "Jasprit Bumrah",
+    "img": "https://example.com/images/jasprit-bumrah.jpg",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 15000000
+  },
+  {
+    "id": "PLY004",
+    "PlayerName": "Ben Stokes",
+    "img": "https://example.com/images/ben-stokes.jpg",
+    "origin": "England",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Right-arm fast-medium",
+    "battingStyle": "Left-handed",
+    "price": 14000000
+  },
+  {
+    "id": "PLY005",
+    "PlayerName": "Shakib Al Hasan",
+    "img": "https://example.com/images/shakib-al-hasan.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "battingStyle": "Left-handed",
+    "price": 10000000
+  },
+  {
+    "id": "PLY006",
+    "PlayerName": "Kagiso Rabada",
+    "img": "https://example.com/images/kagiso-rabada.jpg",
+    "origin": "South Africa",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 13000000
+  },
+  {
+    "id": "PLY007",
+    "PlayerName": "Jos Buttler",
+    "img": "https://example.com/images/jos-buttler.jpg",
+    "origin": "England",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-handed",
+    "price": 12500000
+  },
+  {
+    "id": "PLY008",
+    "PlayerName": "Rashid Khan",
+    "img": "https://example.com/images/rashid-khan.jpg",
+    "origin": "Afghanistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm leg break",
+    "battingStyle": "Right-handed",
+    "price": 13500000
+  },
+  {
+    "id": "PLY009",
+    "PlayerName": "Glenn Maxwell",
+    "img": "https://example.com/images/glenn-maxwell.jpg",
+    "origin": "Australia",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Right-arm off break",
+    "battingStyle": "Right-handed",
+    "price": 11500000
+  },
+  {
+    "id": "PLY010",
+    "PlayerName": "Kane Williamson",
+    "img": "https://example.com/images/kane-williamson.jpg",
+    "origin": "New Zealand",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off break",
+    "battingStyle": "Right-handed",
+    "price": 10500000
+  },
+  {
+    "id": "PLY011",
+    "PlayerName": "Travis Head",
+    "img": "https://example.com/images/travis-head.jpg",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off break",
+    "battingStyle": "Left-handed",
+    "price": 11000000
+  },
+  {
+    "id": "PLY012",
+    "PlayerName": "Mohammad Rizwan",
+    "img": "https://example.com/images/mohammad-rizwan.jpg",
+    "origin": "Pakistan",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-handed",
+    "price": 9500000
+  },
+  {
+    "id": "PLY013",
+    "PlayerName": "Pat Cummins",
+    "img": "https://example.com/images/pat-cummins.jpg",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 14500000
+  },
+  {
+    "id": "PLY014",
+    "PlayerName": "Rohit Sharma",
+    "img": "https://example.com/images/rohit-sharma.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off break",
+    "battingStyle": "Right-handed",
+    "price": 11800000
+  },
+  {
+    "id": "PLY015",
+    "PlayerName": "David Warner",
+    "img": "https://example.com/images/david-warner.jpg",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm leg break",
+    "battingStyle": "Left-handed",
+    "price": 10800000
+  },
+  {
+    "id": "PLY016",
+    "PlayerName": "Shaheen Afridi",
+    "img": "https://example.com/images/shaheen-afridi.jpg",
+    "origin": "Pakistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast",
+    "battingStyle": "Left-handed",
+    "price": 12500000
+  },
+  {
+    "id": "PLY017",
+    "PlayerName": "Liam Livingstone",
+    "img": "https://example.com/images/liam-livingstone.jpg",
+    "origin": "England",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Right-arm leg break",
+    "battingStyle": "Right-handed",
+    "price": 10000000
+  },
+  {
+    "id": "PLY018",
+    "PlayerName": "Andre Russell",
+    "img": "https://example.com/images/andre-russell.jpg",
+    "origin": "West Indies",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 11200000
+  },
+  {
+    "id": "PLY019",
+    "PlayerName": "Quinton de Kock",
+    "img": "https://example.com/images/quinton-de-kock.jpg",
+    "origin": "South Africa",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Left-handed",
+    "price": 10500000
+  },
+  {
+    "id": "PLY020",
+    "PlayerName": "Nicholas Pooran",
+    "img": "https://example.com/images/nicholas-pooran.jpg",
+    "origin": "West Indies",
+    "playerType": "Wicketkeeper-Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Left-handed",
+    "price": 9800000
+  },
+  {
+    "id": "PLY021",
+    "PlayerName": "Ravindra Jadeja",
+    "img": "https://example.com/images/ravindra-jadeja.jpg",
+    "origin": "India",
+    "playerType": "All-rounder",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "battingStyle": "Left-handed",
+    "price": 13000000
+  },
+  {
+    "id": "PLY022",
+    "PlayerName": "Mitchell Starc",
+    "img": "https://example.com/images/mitchell-starc.jpg",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast",
+    "battingStyle": "Left-handed",
+    "price": 14000000
+  },
+  {
+    "id": "PLY023",
+    "PlayerName": "Suryakumar Yadav",
+    "img": "https://example.com/images/suryakumar-yadav.jpg",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-handed",
+    "price": 10200000
+  },
+  {
+    "id": "PLY024",
+    "PlayerName": "Mustafizur Rahman",
+    "img": "https://example.com/images/mustafizur-rahman.jpg",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm medium-fast",
+    "battingStyle": "Left-handed",
+    "price": 8500000
+  }
+]
