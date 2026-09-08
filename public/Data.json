@@ -7,7 +7,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-handed",
-    "price": 12000000
+    "price": 700
   },
   {
     "id": "PLY002",
@@ -17,7 +17,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
     "battingStyle": "Right-handed",
-    "price": 11500000
+    "price": 700
   },
   {
     "id": "PLY003",
@@ -27,7 +27,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 15000000
+    "price": 700
   },
   {
     "id": "PLY004",
@@ -37,7 +37,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast-medium",
     "battingStyle": "Left-handed",
-    "price": 14000000
+    "price": 700
   },
   {
     "id": "PLY005",
@@ -47,7 +47,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Slow left-arm orthodox",
     "battingStyle": "Left-handed",
-    "price": 10000000
+    "price": 700
   },
   {
     "id": "PLY006",
@@ -57,7 +57,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 13000000
+    "price": 700
   },
   {
     "id": "PLY007",
@@ -67,7 +67,7 @@
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-handed",
-    "price": 12500000
+    "price": 700
   },
   {
     "id": "PLY008",
@@ -77,7 +77,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm leg break",
     "battingStyle": "Right-handed",
-    "price": 13500000
+    "price": 700
   },
   {
     "id": "PLY009",
@@ -87,7 +87,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm off break",
     "battingStyle": "Right-handed",
-    "price": 11500000
+    "price": 700
   },
   {
     "id": "PLY010",
@@ -97,7 +97,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
     "battingStyle": "Right-handed",
-    "price": 10500000
+    "price": 700
   },
   {
     "id": "PLY011",
@@ -107,7 +107,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
     "battingStyle": "Left-handed",
-    "price": 11000000
+    "price": 700
   },
   {
     "id": "PLY012",
@@ -117,7 +117,7 @@
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-handed",
-    "price": 9500000
+    "price": 700
   },
   {
     "id": "PLY013",
@@ -127,7 +127,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 14500000
+    "price": 700
   },
   {
     "id": "PLY014",
@@ -137,7 +137,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm off break",
     "battingStyle": "Right-handed",
-    "price": 11800000
+    "price": 700
   },
   {
     "id": "PLY015",
@@ -147,7 +147,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm leg break",
     "battingStyle": "Left-handed",
-    "price": 10800000
+    "price": 700
   },
   {
     "id": "PLY016",
@@ -157,7 +157,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm fast",
     "battingStyle": "Left-handed",
-    "price": 12500000
+    "price": 700
   },
   {
     "id": "PLY017",
@@ -167,7 +167,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm leg break",
     "battingStyle": "Right-handed",
-    "price": 10000000
+    "price": 700
   },
   {
     "id": "PLY018",
@@ -177,7 +177,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Right-arm fast",
     "battingStyle": "Right-handed",
-    "price": 11200000
+    "price": 700
   },
   {
     "id": "PLY019",
@@ -187,7 +187,7 @@
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Left-handed",
-    "price": 10500000
+    "price": 700
   },
   {
     "id": "PLY020",
@@ -197,7 +197,7 @@
     "playerType": "Wicketkeeper-Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Left-handed",
-    "price": 9800000
+    "price": 700
   },
   {
     "id": "PLY021",
@@ -207,7 +207,7 @@
     "playerType": "All-rounder",
     "bowlingStyle": "Slow left-arm orthodox",
     "battingStyle": "Left-handed",
-    "price": 13000000
+    "price": 700
   },
   {
     "id": "PLY022",
@@ -217,7 +217,7 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm fast",
     "battingStyle": "Left-handed",
-    "price": 14000000
+    "price": 700
   },
   {
     "id": "PLY023",
@@ -227,7 +227,7 @@
     "playerType": "Batsman",
     "bowlingStyle": "Right-arm medium",
     "battingStyle": "Right-handed",
-    "price": 10200000
+    "price": 700
   },
   {
     "id": "PLY024",
@@ -237,6 +237,6 @@
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm medium-fast",
     "battingStyle": "Left-handed",
-    "price": 8500000
+    "price": 700
   }
 ]

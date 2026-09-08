@@ -1,9 +1,29 @@
+import { useState, type Dispatch, type SetStateAction } from "react";
 import type { PlayersType } from "../Type/PlayersType";
 
-const PlayerCard = ({ player }: { player: PlayersType }) => {
+interface PlayerProps{
+  player: PlayersType;
+  coin: number;
+  setCoin: Dispatch<SetStateAction<number>>
+}
+
+const PlayerCard = ({ player, coin, setCoin }: PlayerProps) => {
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleButtonSelected = (select: boolean) => {
+    
+
+    const newCoin = coin - player.price
+    if(newCoin > 0){
+      setCoin(newCoin)
+      setIsSelected(select);
+    } else{
+      alert('You are out of coins')
+    }
+  };
+
   return (
     <div className="card bg-base-100 shadow-sm p-6 border border-gray-200 rounded-2xl">
-      
       {/* Player Image */}
       <figure className="h-64 overflow-hidden rounded-2xl">
         <img
@@ -14,7 +34,6 @@ const PlayerCard = ({ player }: { player: PlayersType }) => {
       </figure>
 
       <div className="card-body px-0 pb-0">
-
         {/* Player Name */}
         <div className="flex items-center gap-3">
           <div className="text-3xl text-gray-700">
@@ -35,14 +54,11 @@ const PlayerCard = ({ player }: { player: PlayersType }) => {
             </svg>
           </div>
 
-          <h2 className="text-2xl font-bold">
-            {player.PlayerName}
-          </h2>
+          <h2 className="text-2xl font-bold">{player.PlayerName}</h2>
         </div>
 
         {/* Country & Player Type */}
         <div className="flex justify-between items-center mt-5">
-
           <div className="flex items-center gap-3 text-gray-500 text-lg">
             <span className="text-2xl">⚑</span>
             <span>{player.origin}</span>
@@ -51,7 +67,6 @@ const PlayerCard = ({ player }: { player: PlayersType }) => {
           <span className="bg-gray-100 px-4 py-2 rounded-xl text-gray-700">
             {player.playerType}
           </span>
-
         </div>
 
         {/* Divider */}
@@ -59,50 +74,36 @@ const PlayerCard = ({ player }: { player: PlayersType }) => {
 
         {/* Rating */}
         <div className="flex justify-between items-center mb-4">
-          <span className="font-semibold text-lg">
-            Rating
-          </span>
+          <span className="font-semibold text-lg">Rating</span>
 
-          <div className="text-yellow-400">
-            ★★★★★
-          </div>
+          <div className="text-yellow-400">★★★★★</div>
         </div>
 
         {/* Batting Style */}
         <div className="flex justify-between mb-4 text-lg">
-          <span className="font-medium">
-            Batting
-          </span>
+          <span className="font-medium">Batting</span>
 
-          <span className="text-gray-500">
-            {player.battingStyle}
-          </span>
+          <span className="text-gray-500">{player.battingStyle}</span>
         </div>
 
         {/* Bowling Style */}
         <div className="flex justify-between mb-5 text-lg">
-          <span className="font-medium">
-            Bowling
-          </span>
+          <span className="font-medium">Bowling</span>
 
-          <span className="text-gray-500">
-            {player.bowlingStyle}
-          </span>
+          <span className="text-gray-500">{player.bowlingStyle}</span>
         </div>
 
         {/* Price + Button */}
         <div className="flex justify-between items-center">
+          <span className="font-bold text-lg">Price: ${player.price}</span>
 
-          <span className="font-bold text-lg">
-            Price: ${player.price}
-          </span>
-
-          <button className="btn bg-white border border-gray-300 rounded-xl px-5 hover:bg-gray-100">
-            Choose Player
+          <button
+            onClick={() => handleButtonSelected(true)}
+            className="btn bg-white border border-gray-300 rounded-xl px-5 hover:bg-gray-100"
+            disabled={isSelected}>
+            {isSelected === false ? 'Choose Player' : 'Selected'}
           </button>
-
         </div>
-
       </div>
     </div>
   );

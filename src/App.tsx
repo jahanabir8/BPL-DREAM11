@@ -1,5 +1,5 @@
 
-import { Suspense} from 'react'
+import { Suspense, useState} from 'react'
 import './App.css'
 import Hero from './Components/Hero/Hero'
 import Nav from './Components/Nav/Nav'
@@ -15,12 +15,14 @@ const playersDataPromise: () => Promise<PlayersType[]> = async () => {
 
 function App() {
 
+  const [coin, setCoin] = useState(1000)
+
   return (
     <>
-      <Nav></Nav>
+      <Nav coin={coin} setCoin = {setCoin}></Nav>
       <Hero></Hero>
       <Suspense fallback={<div>Loading...</div>}>
-        <Players playersDataPromise={playersDataPromise()}></Players>
+        <Players coin={coin} setCoin = {setCoin}  playersDataPromise={playersDataPromise()}></Players>
       </Suspense>
     </>
   )
