@@ -1,9 +1,9 @@
 import React from "react";
 
-import Coin from "../../assets/coin.png";
+import CoinImg from "../../assets/coin.png";
 import Logo from '../../assets/logo.png'
 
-const Nav = ({coin, setCoin}) => {
+const Nav = ({coin}) => {
   return (
     <div className=" shadow-sm mb-6">
       <div className="navbar max-w-330 mx-auto bg-base-100">
@@ -67,7 +67,7 @@ const Nav = ({coin, setCoin}) => {
         </div>
         <div className="navbar-end">
           <a className="btn">
-            {coin} Coin <img className="h-5" src={Coin} alt="coin" />
+            {coin} Coin <img className="h-5" src={CoinImg} alt="coin" />
           </a>
         </div>
       </div>

@@ -15,11 +15,11 @@ const playersDataPromise: () => Promise<PlayersType[]> = async () => {
 
 function App() {
 
-  const [coin, setCoin] = useState(1000)
+  const [coin, setCoin] = useState(100000)
 
   return (
     <>
-      <Nav coin={coin} setCoin = {setCoin}></Nav>
+      <Nav coin={coin}></Nav>
       <Hero></Hero>
       <Suspense fallback={<div>Loading...</div>}>
         <Players coin={coin} setCoin = {setCoin}  playersDataPromise={playersDataPromise()}></Players>

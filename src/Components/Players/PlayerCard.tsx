@@ -5,18 +5,20 @@ interface PlayerProps{
   player: PlayersType;
   coin: number;
   setCoin: Dispatch<SetStateAction<number>>
+  handleSelectedPlayers: (player: PlayersType)=>void
 }
 
-const PlayerCard = ({ player, coin, setCoin }: PlayerProps) => {
+const PlayerCard = ({ player, coin, setCoin, handleSelectedPlayers }: PlayerProps) => {
   const [isSelected, setIsSelected] = useState(false);
 
   const handleButtonSelected = (select: boolean) => {
     
-
+    
     const newCoin = coin - player.price
     if(newCoin > 0){
       setCoin(newCoin)
       setIsSelected(select);
+      handleSelectedPlayers(player)
     } else{
       alert('You are out of coins')
     }
