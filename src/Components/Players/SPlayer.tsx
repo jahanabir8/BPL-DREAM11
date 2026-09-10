@@ -30,10 +30,10 @@ import { RiDeleteBin6Line } from "react-icons/ri";
 
 interface SPlayerProps {
   player: PlayersType;
-  onDelete?: (id: string | number) => void; // Optional delete handler if needed
+  handleRemovePlayer: (player: PlayersType) => void;
 }
 
-const SPlayer = ({ player, onDelete }: SPlayerProps) => {
+const SPlayer = ({ player, handleRemovePlayer }: SPlayerProps) => {
   return (
     <div className="flex items-center justify-between p-4 bg-white border border-gray-200 rounded-2xl shadow-sm mb-4">
       <div className="flex items-center gap-4">
@@ -50,14 +50,14 @@ const SPlayer = ({ player, onDelete }: SPlayerProps) => {
             {player.PlayerName}
           </h2>
           <p className="text-sm text-gray-400 mt-1">
-            {player.battingStyle}
+            {player.playerType}
           </p>
         </div>
       </div>
 
       {/* Delete Icon */}
       <button 
-        onClick={() => onDelete && onDelete(player.id)}
+        onClick={() => handleRemovePlayer(player)}
         className="p-2 hover:bg-red-50 rounded-full transition-colors"
       >
         <RiDeleteBin6Line className="text-red-400 hover:text-red-500 text-xl cursor-pointer" />

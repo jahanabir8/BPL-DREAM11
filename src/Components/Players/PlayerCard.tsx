@@ -1,26 +1,31 @@
-import { useState, type Dispatch, type SetStateAction } from "react";
+import type { Dispatch, SetStateAction } from "react"; // CHANGED: removed unused `useState` import
 import type { PlayersType } from "../Type/PlayersType";
 
-interface PlayerProps{
+interface PlayerProps {
   player: PlayersType;
   coin: number;
-  setCoin: Dispatch<SetStateAction<number>>
-  handleSelectedPlayers: (player: PlayersType)=>void
+  setCoin: Dispatch<SetStateAction<number>>;
+  isSelected: boolean; // CHANGED: isSelected is now a prop coming from the parent, not local state
+  handleSelectedPlayers: (player: PlayersType) => void;
 }
 
-const PlayerCard = ({ player, coin, setCoin, handleSelectedPlayers }: PlayerProps) => {
-  const [isSelected, setIsSelected] = useState(false);
-
-  const handleButtonSelected = (select: boolean) => {
-    
-    
-    const newCoin = coin - player.price
-    if(newCoin > 0){
-      setCoin(newCoin)
-      setIsSelected(select);
-      handleSelectedPlayers(player)
-    } else{
-      alert('You are out of coins')
+const PlayerCard = ({
+  player,
+  coin,
+  setCoin,
+  isSelected,
+  handleSelectedPlayers,
+}: PlayerProps) => {
+  // CHANGED: destructure isSelected from props instead of useState
+  const handleButtonSelected = () => {
+    // CHANGED: no longer takes a `select` param since we don't call setIsSelected anymore
+    const newCoin = coin - player.price;
+    if (newCoin > 0) {
+      setCoin(newCoin);
+      // REMOVED: setIsSelected(select) — no local state to update anymore
+      handleSelectedPlayers(player);
+    } else {
+      alert("You are out of coins");
     }
   };
 
@@ -100,10 +105,11 @@ const PlayerCard = ({ player, coin, setCoin, handleSelectedPlayers }: PlayerProp
           <span className="font-bold text-lg">Price: ${player.price}</span>
 
           <button
-            onClick={() => handleButtonSelected(true)}
+            onClick={handleButtonSelected}
             className="btn bg-white border border-gray-300 rounded-xl px-5 hover:bg-gray-100"
-            disabled={isSelected}>
-            {isSelected === false ? 'Choose Player' : 'Selected'}
+            disabled={isSelected}
+          >
+            {isSelected === false ? "Choose Player" : "Selected"}
           </button>
         </div>
       </div>

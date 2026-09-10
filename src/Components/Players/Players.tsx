@@ -17,16 +17,26 @@ export default function Players({
   const players = use(playersDataPromise);
 
   const [buttonType, setButtonType] = useState("Available");
-  const [choosenPlayers, setChoosenPlayers] = useState([]);
+  const [choosenPlayers, setChoosenPlayers] = useState<PlayersType[]>([]);
 
   const handleButtonType = (type: "Available" | "Selected") => {
     setButtonType(type);
   };
 
-  const handleSelectedPlayers = (player) => {
-    const selectedAllPlayers: PlayersType[] = [...choosenPlayers, player]
+  const handleSelectedPlayers = (player: PlayersType) => {
+    const selectedAllPlayers: PlayersType[] = [...choosenPlayers, player];
     setChoosenPlayers(selectedAllPlayers);
   };
+
+  const handleRemovePlayer = (player: PlayersType) => {
+    const updatedPlayers = choosenPlayers.filter(
+      (p) => p.id !== player.id
+    );
+    setChoosenPlayers(updatedPlayers);
+    const newCoin = coin + player.price;
+    setCoin(newCoin);
+  };
+
 
   return (
     <div className="max-w-330 mx-auto mt-8">
@@ -51,15 +61,16 @@ export default function Players({
           </button>
         </div>
       </div>
-      {buttonType === "Available" ? (
+            {buttonType === "Available" ? (
         <AvailablePlayers
           coin={coin}
           setCoin={setCoin}
           players={players}
+          choosenPlayers={choosenPlayers}
           handleSelectedPlayers={handleSelectedPlayers}
         ></AvailablePlayers>
       ) : (
-        <SelectedPlayers choosenPlayers={choosenPlayers}></SelectedPlayers>
+        <SelectedPlayers coin={coin} setCoin={setCoin} handleRemovePlayer={handleRemovePlayer} choosenPlayers={choosenPlayers}></SelectedPlayers>
       )}
     </div>
   );

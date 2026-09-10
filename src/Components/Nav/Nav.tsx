@@ -74,5 +74,4 @@ const Nav = ({coin}) => {
     </div>
   );
 };
-
 export default Nav;
